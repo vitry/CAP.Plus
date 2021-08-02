@@ -6,6 +6,8 @@
     <title>DotNetCore.CAP.Plus</title>
     <authors>Kai</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <repository type="git" url="https://github.com/vitry/CAP.Plus" branch="main" commit="2547ed92e9e18c6d054b752abf99ed31a3e2f25c" />
+    <license type="expression">MIT</license>
     <description>Enhanced CAP</description>
     <releaseNotes>
       1.0.0 Enhanced subscriber
