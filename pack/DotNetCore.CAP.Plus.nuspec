@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotNetCore.CAP.Plus</id>
+    <version>1.0.0</version>
+    <title>DotNetCore.CAP.Plus</title>
+    <authors>Kai</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enhanced CAP</description>
+    <releaseNotes>
+      1.0.0 Enhanced subscriber
+    </releaseNotes>
+    <copyright>Kai</copyright>
+    <tags>CAP</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.1">
+        <dependency id="DotNetCore.CAP" version="5.0.3" />
+        <dependency id="JetBrains.Annotations" version="2021.1.0" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\DotNetCore.CAP.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.Plus.dll" target="lib\netstandard2.1\DotNetCore.CAP.Plus.dll" />
+    <file src="..\src\DotNetCore.CAP.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.Plus.pdb" target="lib\netstandard2.1\DotNetCore.CAP.Plus.pdb" />
+    <file src="..\src\DotNetCore.CAP.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.Plus.xml" target="lib\netstandard2.1\DotNetCore.CAP.Plus.xml" />
+  </files>
+</package>

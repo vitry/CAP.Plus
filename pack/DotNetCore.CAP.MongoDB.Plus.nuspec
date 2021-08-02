@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotNetCore.CAP.MongoDB.Plus</id>
+    <version>1.0.0</version>
+    <title>DotNetCore.CAP.MongoDB.Plus</title>
+    <authors>Kai</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enhanced CAP MongoDB</description>
+    <releaseNotes>
+      1.0.0 More message infos persistence
+    </releaseNotes>
+    <copyright>Kai</copyright>
+    <tags>CAP</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.1">
+        <dependency id="DotNetCore.CAP.MongoDB" version="5.0.3" />
+        <dependency id="DotNetCore.CAP.Plus" version="1.0.0" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\DotNetCore.CAP.MongoDB.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.dll" target="lib\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.dll" />
+    <file src="..\src\DotNetCore.CAP.MongoDB.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.pdb" target="lib\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.pdb" />
+    <file src="..\src\DotNetCore.CAP.MongoDB.Plus\bin\Debug\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.xml" target="lib\netstandard2.1\DotNetCore.CAP.MongoDB.Plus.xml" />
+  </files>
+</package>
