@@ -19,11 +19,8 @@ namespace DotNetCore.CAP.Plus
             services.AddSingleton<CapStorageMarkerService>();
             services.Configure(_configure);
 
-            services.RemoveAll<IConsumerRegister>();
-            services.TryAddSingleton<IConsumerRegister, ConsumerRegister>();
-
-            services.RemoveAll<ISubscribeInvoker>();
-            services.TryAddSingleton<ISubscribeInvoker, SubscribeInvoker>();
+            services.Replace(ServiceDescriptor.Singleton<IConsumerRegister, ConsumerRegister>());
+            services.Replace(ServiceDescriptor.Singleton<ISubscribeInvoker, SubscribeInvoker>());
 
             // Rebulid processing server
             services.RemoveAll<IProcessingServer>();

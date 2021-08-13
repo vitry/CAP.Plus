@@ -93,7 +93,7 @@ namespace DotNetCore.CAP.Plus
             }
             catch (Exception e)
             {
-                message.Headers[Messages.PlusHeaders.StackTrace] = e.ToString();
+                message.Headers[Messages.PlusHeaders.STACKTRACE] = e.ToString();
                 throw;
             }
             finally
@@ -102,7 +102,7 @@ namespace DotNetCore.CAP.Plus
                 if (idx != -1)
                 {
                     if (executeParameters[idx] is CapPlusHeader headers)
-                        message.Headers[Messages.PlusHeaders.Tags] = headers.ConsumeTag;
+                        message.Headers[Messages.PlusHeaders.TAGS] = headers.ConsumeTag;
                 }
             }
         }
