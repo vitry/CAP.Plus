@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>DotNetCore.CAP.MongoDB.Plus</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>DotNetCore.CAP.MongoDB.Plus</title>
     <authors>Kai</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,13 +11,14 @@
     <description>Enhanced CAP MongoDB</description>
     <releaseNotes>
       1.0.0 More message infos persistence
+      1.1.0 Update CAP.Plus
     </releaseNotes>
     <copyright>Kai</copyright>
     <tags>CAP</tags>
     <dependencies>
       <group targetFramework="netstandard2.1">
         <dependency id="DotNetCore.CAP.MongoDB" version="5.0.3" />
-        <dependency id="DotNetCore.CAP.Plus" version="1.0.0" />
+        <dependency id="DotNetCore.CAP.Plus" version="1.1.0" />
         <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.1" />
       </group>
     </dependencies>
